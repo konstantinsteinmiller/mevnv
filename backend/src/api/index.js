@@ -1,7 +1,6 @@
 import { version } from '../../package.json';
 import { Router } from 'express';
 import facets from './facets';
-import generateUniqueTrackingNumber, { isValidTrackingNumber } from './tracking'
 
 
 export default ({ config, db }) => {

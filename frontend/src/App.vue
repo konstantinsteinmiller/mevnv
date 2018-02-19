@@ -29,7 +29,7 @@
       </v-navigation-drawer>
       <v-toolbar app fixed clipped-left>
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-        <v-toolbar-title>ShipTrack</v-toolbar-title>
+        <v-toolbar-title>{{ appName }}</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
           <!--<v-btn flat>-->
@@ -63,7 +63,7 @@
     name: 'App',
     data(){
       return {
-        appName: 'Your browser tab app name here',
+        appName: 'App name',
         drawer: false
       }
     },

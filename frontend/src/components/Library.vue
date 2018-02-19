@@ -46,7 +46,7 @@ export default {
   name: 'library',
   data() {
     return {
-      title: 'App Name',
+      title: 'Page name',
       subTitle: 'Subtitle for page',
       alert: null,
       rules: {
